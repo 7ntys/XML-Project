@@ -1,0 +1,92 @@
+{
+    "cinemas": [
+      {
+        "id": 1,
+        "name": "Cinéma Lumière",
+        "city": "Paris",
+        "address": "10 rue des Cinéphiles",
+        "movies": [
+          {
+            "id": 1,
+            "title": "Le Grand Voyage",
+            "duration": 120,
+            "language": "Français",
+            "subtitles": false,
+            "director": "Jean Dupont",
+            "main_actors": ["Alice Martin", "Paul Durant"],
+            "age_minimum": 12,
+            "screenings": [
+              {
+                "start_date": "2025-01-10",
+                "end_date": "2025-01-30",
+                "days": ["Monday", "Wednesday", "Friday"],
+                "time": "19:30"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "L'Odyssée Spatiale",
+            "duration": 150,
+            "language": "Français",
+            "subtitles": true,
+            "director": "Sophie Lemoine",
+            "main_actors": ["Pierre Richard", "Claire Fontaine"],
+            "age_minimum": 10,
+            "screenings": [
+              {
+                "start_date": "2025-02-01",
+                "end_date": "2025-02-28",
+                "days": ["Tuesday", "Thursday", "Saturday"],
+                "time": "20:00"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Cinéma Etoile",
+        "city": "Lyon",
+        "address": "25 avenue des Lumières",
+        "movies": [
+          {
+            "id": 3,
+            "title": "Aventures Sauvages",
+            "duration": 100,
+            "language": "Anglais",
+            "subtitles": true,
+            "director": "Mark Twain",
+            "main_actors": ["Tom Hanks", "Emma Stone"],
+            "age_minimum": 16,
+            "screenings": [
+              {
+                "start_date": "2025-01-15",
+                "end_date": "2025-01-31",
+                "days": ["Monday", "Thursday", "Sunday"],
+                "time": "18:00"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "title": "Les Rêves Perdus",
+            "duration": 95,
+            "language": "Français",
+            "subtitles": false,
+            "director": "Elise Martin",
+            "main_actors": ["Jean Reno", "Juliette Binoche"],
+            "age_minimum": 12,
+            "screenings": [
+              {
+                "start_date": "2025-03-01",
+                "end_date": "2025-03-15",
+                "days": ["Wednesday", "Friday", "Saturday"],
+                "time": "21:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
