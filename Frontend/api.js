@@ -78,6 +78,7 @@ async function getMovies(cinemaId) {
   }
 }
 
+/*
 // Example Usage
 (async () => {
   // Example Cinema Data
@@ -121,3 +122,4 @@ async function getMovies(cinemaId) {
     const movies = await getMovies(newCinema.id);
   }
 })();
+*/
